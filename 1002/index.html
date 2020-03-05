@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>1002: Jorge Gabriel</title>
+    <style>
+        body {
+            background-color: dodgerblue;
+        }
+
+        h1 {
+            font-family: "comic sans ms";
+            font-size: 25px;
+            color: white;
+            text-align: center;
+        }
+
+        #container {
+            height: 500px;
+            width: 600px;
+            margin: 0px auto;
+            border-radius: 20px;
+            background-color: white;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .entradaDados {
+            height: 100px;
+            width: 200px;
+            /* background-color: violet; */
+            white-space: pre-line;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Calculando a área de um círculo</h1>
+    <div id="container">
+        <label class="entradaDados">
+            Raio:
+            <input type="number" id="raio">
+        </label>
+
+        <label class="entradaDados">
+            Resultado:
+            <input type="text" id="resultado" disabled>
+        </label>
+
+        <button id="btnCalc">Somar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
