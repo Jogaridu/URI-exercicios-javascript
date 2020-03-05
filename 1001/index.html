@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: dodgerblue;
+        }
+        #container {
+            height: 500px;
+            width: 600px;
+            margin: 0 auto;
+            border-radius: 20px;
+            background-color: white;
+
+            /* display: grid;
+            grid-template-columns: repeat(3, 150px);
+            grid-template-rows: repeat(3, 30px);
+            justify-content: center; */
+            padding-top: 80px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <label for="numero1">Numero 1:</label>
+        <input type="text" id="numero1"> <br>
+
+        <label for="numero2">Numero 2:</label> 
+        <input type="text" id="numero2"> <br>
+
+        Resultado: 
+        <input type="text" id="resultado" disabled>
+    </div>
+</body>
+</html>
